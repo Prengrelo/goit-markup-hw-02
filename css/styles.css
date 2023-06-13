@@ -10,11 +10,14 @@ body {
   color: var(--font-color);
   background-color: var(--background-color);
 }
-ul {
+.header-list {
+    list-style: none;
+}
+.main-list {
   list-style: none;
 }
 /* HEADER */
-.header-logo {
+.header-logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -40,13 +43,16 @@ ul {
 .header-link:focus {
   color: #404bbf;
 }
+.address {
+    font-style: normal
+}
 .header-contact:hover,
 .header-contact:focus {
   color: #404bbf;
 }
 .header-contact {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--font-color);
@@ -165,6 +171,7 @@ ul {
 }
 /* Portfolio */
 .btnAll {
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -173,6 +180,7 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .btn1 {
@@ -183,6 +191,7 @@ ul {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 }
 
 .solutions-h3 {
