@@ -3,27 +3,29 @@
   --primary-font: Roboto, sans-serif;
   --font-color: #434455;
   --secondary-color: #2e2f42;
+  --background-color: #ffffff;
 }
 body {
   font-family: var(--primary-font);
   color: var(--font-color);
+  background-color: var(--background-color);
 }
 ul {
   list-style: none;
 }
 /* HEADER */
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: #4D5AE5; 
   text-decoration: none;
 }
-.header-logo-web {
-  color: #4d5ae5;
+.header-studio {
+  color: var(--secondary-color);
 }
 
 .header-link {
@@ -71,7 +73,8 @@ ul {
   background-color: #4d5ae5;
   color: #ffffff;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 /* SECTION N2 */
@@ -92,13 +95,19 @@ ul {
 .section3-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
 }
 /* SECTION N4 */
+.section4 {
+    background-color: #F4F4FD
+}
+.section4-list {
+   background-color: #ffffff;
+}
 .section4-h2 {
   font-weight: 700;
   font-size: 36px;
@@ -129,19 +138,16 @@ ul {
   background-color: var(--secondary-color);
 }
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: #4d5ae5;
   text-decoration: none;
 }
 
-.header-logo-web {
-  color: #4d5ae5;
-}
 .footer-studio {
   font-weight: 800;
   font-size: 18px;
