@@ -58,7 +58,10 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+.address .list .link:hover,
+.address .list .link:focus {
+  color: #404bbf;
+}
 /* SECTION N1 */
 .section-effective {
   background-color: var(--secondary-color);
@@ -77,7 +80,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -161,7 +163,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -178,7 +179,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-ocean);
